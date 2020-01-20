@@ -1,0 +1,23 @@
+Git Commands
+============
+
+open gitbash
+cd /c/projects/2020/containerservice/training/frontend
+git init
+
+
+https://github.com/hanabadr/docker-react.git
+
+
+
+
+
+Reference:
+Create new repo 
+
+echo "# docker-react" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hanabadr/docker-react.git
+git push -u origin master
