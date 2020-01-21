@@ -3,17 +3,29 @@ Git Commands
 
 open gitbash
 cd /c/projects/2020/containerservice/training/frontend
-git init
+	git init
+	git add .
+	git commit -m "initial commit"
+	git remote add origin https://github.com/hanabadr/docker-react.git
+	#git config --global http.sslBackend schannel
+	git config http.sslVerify false		# to avoid ssl certificate error
+	
+	git push origin master
 
 
-https://github.com/hanabadr/docker-react.git
+Travis setup
+============
+
+https://travis-ci.org
+
 
 
 
 
 
 Reference:
-Create new repo 
+---------------
+Create new repo manually
 
 echo "# docker-react" >> README.md
 git init

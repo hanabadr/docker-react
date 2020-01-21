@@ -4,8 +4,8 @@
 # To create image run
 # docker build -f Dockerfile . -t frontendprod
 #To start container run
-# docker run -p 3000:3000 -v /app/node_modules -v C:\Projects\2020\ContainerService\Training\frontend:/app -it frontend sh
-# To test http://localhost:3000/
+# docker run -p 8090:80 -t frontendprod
+# To test http://localhost:8090/
 
 
 # Specify base image
